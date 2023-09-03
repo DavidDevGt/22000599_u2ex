@@ -38,7 +38,7 @@ public class DireccionEnvio {
     }
 
     public void setDireccionExacta(String nuevaDireccion) {
-        if (nuevaDireccion.length() > 12) {
+        if (nuevaDireccion.length() > 20) {
             this.direccionExacta = nuevaDireccion;
         } else {
             System.out.println("Error: Ingresa una dirección valida.");
